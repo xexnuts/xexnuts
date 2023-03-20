@@ -1,45 +1,45 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("XEX HUB", "Ocean")
- 
+
 --MAIN 
 local Tab = Window:NewTab("DaBaby")
 local MainSection = Tab:NewSection("DaHood")
- 
- 
+
+
 MainSection:NewButton("SwagMode", "no", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
- 
-MainSection:NewButton("Zinc", "xex", function()
+
+MainSection:NewButton("Zinc", "kys", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
 end)
- 
+
 MainSection:NewButton("RAYX", "eat dirt", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
- 
- 
- 
+
+
+
 local Main = Window:NewTab("BloxFruits")
 local MainSection = Main:NewSection("BloxFruits")
- 
- 
-MainSection:NewButton("Thunderz", "xex", function()
+
+
+MainSection:NewButton("Thunderz", "cocaine", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
 end)
- 
- 
-MainSection:NewButton("HoHo", "xex", function()
+
+
+MainSection:NewButton("HoHo", "meth", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
- 
- 
-MainSection:NewButton("Pado", "xex", function()
+
+
+MainSection:NewButton("Pado", "weed", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
 end)
- 
- 
-MainSection:NewButton("AntiAfk", "goofy ahh", function()
+
+
+MainSection:NewButton("AntiAfk", "retard", function()
     wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
 local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
@@ -59,5 +59,10 @@ ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
- 
+
+end)
+
+
+MainSection:NewButton("Chat Bypass", "Does what it says", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
 end)
