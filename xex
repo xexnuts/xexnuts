@@ -19,7 +19,7 @@ MainSection:NewButton("RAYX", "eat dirt", function()
 end)
 
 
-MainSection:NewButton("Agent", "hi", function()
+MainSection:NewButton("Agent", "silly nigger", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
 
 end)
